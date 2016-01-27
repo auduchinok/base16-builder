@@ -17,13 +17,16 @@ Build a scheme stored on some webspace.
 Build only the terminal-app termplate
 
 ## Templates
+* Ace
 * Atom
 * BBEdit (TextWrangler)
+* Brackets
 * Chrome DevTools (Web Inspector)
 * Chrome Secure Shell
 * CodeMirror
 * ConEmu
 * Console2
+* Devtools-Author
 * DrRacket
 * Emacs
 * Escape Code Shell Script (shell)
@@ -39,7 +42,6 @@ Build only the terminal-app termplate
 * IPython Notebook
 * iTerm 2
 * Konsole
-* MacDown
 * Mate Terminal
 * MinTTY
 * MultiMarkdown Composer 2 (mmdc2)
@@ -74,7 +76,7 @@ Build only the terminal-app termplate
 * [joedynamite](https://github.com/joedynamite) - Xcode
 * [robloach](https://github.com/robloach) - Geany
 * [geoffstokes](https://github.com/geoffstokes) - Windows Command Prompt, MinTTY
-* [idleberg](https://github.com/idleberg) - Atom, Chrome DevTools, CodeMirror, Gedit, highlight.js, Notepad++, prettify.js, Pygments, Rainbow
+* [idleberg](https://github.com/idleberg) - Ace, Atom, Brackets, Chrome DevTools, CodeMirror, Devtools-Author, Gedit, highlight.js, Notepad++, prettify.js, Pygments, Rainbow
 * [rgieseke](https://github.com/rgieseke) - Textadept
 * [oxplot](https://github.com/oxplot) - Mate Terminal
 * [esn89](https://github.com/esn89) - Zathura PDF Reader
