@@ -1,22 +1,39 @@
 # Base16 Builder
+
 Easily build color variations of Base16 with YAML scheme definitions and ERB templates.
 See the [Base16](https://github.com/chriskempson/base16) repository for more information.
 Requires Ruby 1.9 or greater.
 
+## About the fork
+
+It seems that original [repo](https://github.com/chriskempson/base16-builder) is no longer maintained.
+
+There've been a lot of pull requests with fixes and enhancements that should have been merged so I decided to create a fork and merge them.
+
 ## Usage
+
+Build all schemes:
+
     > ./base16
-Build all schemes
+
+
+Build only the "default" theme:
 
     > ./base16 -s schemes/default.yml
-Build only the "default" theme
 
-    > ./base16 https://awesome-schemes.com/my-scheme.yml
-Build a scheme stored on some webspace.
+
+Build only the terminal-app termplate:
 
     > ./base16 -t templates/terminal-app
-Build only the terminal-app termplate
+
+
+Build a scheme stored on some webspace:
+
+    > ./base16 https://awesome-schemes.com/my-scheme.yml
+
 
 ## Templates
+
 * Ace
 * Atom
 * BBEdit (TextWrangler)
@@ -71,6 +88,7 @@ Build only the terminal-app termplate
 * Zathura
 
 ## Maintainers
+
 * [chriskempson](https://github.com/chriskempson) - HTML Preview, Vim, TextMate, iTerm 2, XFCE4 Terminal, Mou, Escape Code Shell Script, Gnome Terminal, BBEdit
 * [jayferd](https://github.com/jayferd) - Rouge
 * [neil477](https://github.com/neil477) - Emacs
@@ -86,6 +104,8 @@ Build only the terminal-app termplate
 * [jprjr](https://github.com/jprjr) - ConnectBot, vx-connectbot
 * [atelierbram](https://github.com/atelierbram) - Prism
 * [bbrks](https://github.com/bbrks) - Sequel Pro
+* [auduchinok](https://github.com/auduchinok) - maintaining
 
 ## License
+
 Base16 Builder is released under the [MIT License](https://github.com/chriskempson/base16-builder/blob/master/LICENSE.md)
